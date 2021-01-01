@@ -17,7 +17,8 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path='/' exact component={Home} />
+          <Route path='/' exact={true} component={Home} />
+          <Route path='/online-resume' exact={true} component={Home} />
           <Route path='/about-me' component={AboutMe} />
         </Switch>
       </Router>

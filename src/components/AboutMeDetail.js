@@ -5,7 +5,7 @@ function AboutMeDetail() {
     return (
         <div className="about-me-detail-container">
             <div className="profile-picture">
-                <img className="img-pic" src="/images/pp.jpg" alt="profile_picture"></img>
+                <img className="img-pic" src={process.env.PUBLIC_URL + "/images/pp.jpg"} alt="profile_picture"></img>
             </div>
             <div className="details">
                 <div>
@@ -29,7 +29,7 @@ function AboutMeDetail() {
                     Native and Node.js. Strong background in object-oriented programming and web development.
                 </p>
             </div>
-        </div>
+        </div >
     )
 }
 
