@@ -1,0 +1,60 @@
+.about-me-detail-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 36px;
+}
+
+.profile-picture {
+    flex: 1;
+    margin: 24px;
+}
+
+.profile-picture img {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 24px;
+    margin-bottom: 18px;
+}
+
+.biography {
+    flex: 1;
+    flex-direction: column;
+}
+
+.biography-text {
+    text-align: center;
+    margin: 24px 144px 48px 144px;
+    font-size: 24px;
+}
+
+.details {
+    flex: 1;
+    flex-direction: column;
+    margin: 0px 12px 12px 24px;
+}
+
+.name {
+    font-size: 36px;
+}
+
+.age {
+    font-size: 24px;
+    text-align: center;
+}
+
+.location {
+    font-size: 18px;
+    text-align: center;
+    color: #b1b1b1;
+}
+
+@media screen and (max-width: 820px) {
+    .biography-text {
+        margin: 12px 36px 24px 36px;
+    }
+}

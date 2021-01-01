@@ -1,0 +1,57 @@
+.experiences-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    padding: 36px;
+}
+
+.experience-section-title {
+    color: #fff;
+    margin-bottom: 24px;
+    text-align: start;
+    margin: 24px 288px 24px 288px;
+}
+
+.experiences-row {
+    flex: 1;
+    display: flex;
+    flex-direction: revert;
+    align-items: flex-start;
+    margin: 24px 288px 24px 288px;
+}
+
+.experience-period {
+    flex: 2;
+}
+
+.experience-detail {
+    flex: 1;
+    margin-top: 4px;
+}
+
+.experience-title {
+    font-size: 26px;
+    color: #fff;
+}
+
+.experience-date {
+    font-size: 24px;
+}
+
+.experience-text {
+    color: #fff;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+    .experiences-row {
+        margin: 6px;
+        flex-direction: column;
+    }
+
+    .experience-section-title {
+        margin: 6px;
+        flex-direction: column;
+    }
+}

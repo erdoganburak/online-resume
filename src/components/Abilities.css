@@ -1,0 +1,66 @@
+.abilities-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.abilities-wrapper {
+    flex-direction: row;
+    background: #fff;
+    padding: 36px;
+}
+
+.abilities-section-title {
+    color: black;
+    text-align: center;
+    margin: 24px 288px 0px 288px;
+    font-size: 48px;
+}
+
+.abilities-row {
+    margin: 24px 288px 24px 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abilities-title {
+    font-size: 26px;
+    color: black;
+}
+
+.abilities-stars {
+    font-size: 24px;
+    margin-top: 6px;
+}
+
+.abilities-text {
+    color: black;
+    font-size: 18px;
+}
+
+.effective {
+    color: black;
+    font-size: 30px;
+}
+
+.normal {
+    color: #727878;
+    font-size: 22px;
+}
+
+.passive {
+    color: #72787871;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 820px) {
+    .abilities-row {
+        margin: 6px;
+        flex-direction: column;
+    }
+
+    .abilities-section-title {
+        margin: 6px;
+        flex-direction: column;
+    }
+}
